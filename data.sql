@@ -44,7 +44,9 @@ INSERT INTO users (id, name, age) VALUES (40, 'Hilary', 13);
 INSERT INTO users (id, name, age) VALUES (95, 'frank', 83);
 
 
+UPDATE users SET age = 99 WHERE id = 3;
 
+DELETE FROM users WHERE id = 8;
 
 
 

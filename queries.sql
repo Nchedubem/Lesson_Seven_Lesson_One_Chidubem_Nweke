@@ -3,17 +3,11 @@
 SELECT * FROM users;
 
 
-UPDATE users SET age = 99 WHERE id = 3;
-
-
-DELETE FROM users WHERE id = 8;
-
-
 SELECT * FROM users WHERE age > 20;
 
 
-
 SELECT * FROM Users WHERE age > 25;
+
 
 SELECT * FROM Users WHERE name LIKE 'f%';
 
